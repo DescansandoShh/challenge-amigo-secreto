@@ -1,6 +1,12 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 let amigos = [];
 
+document.getElementById('amigo').addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        document.querySelector(".button-add").click();
+    }
+});
+
 function agregarAmigo () {
     let input = document.getElementById('amigo');
     let nombre = input.value.trim();
