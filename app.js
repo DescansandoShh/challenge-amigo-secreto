@@ -32,6 +32,7 @@ function actualizarListaAmigos () {
         }
         listaAmigos.appendChild(nombreAmigo);
     }
+    document.getElementById('resultado').innerHTML = '';
 }
 
 function validarNombre (nombre) {
