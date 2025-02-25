@@ -48,11 +48,12 @@ function validarNombre (nombre) {
 }
 
 function sortearAmigo () {
-    if (amigosSorteados.length == amigos.length) {
-        document.getElementById('resultado').innerHTML = 'Todos los nombres fueron sorteados.';
-        return;
-    }
     if (amigos.length != 0){
+        if (amigosSorteados.length == amigos.length) {
+            document.getElementById('resultado').innerHTML = 'Todos los nombres fueron sorteados.';
+            return;
+        }
+        
         let indiceAmigo = 0;
 
         do {
