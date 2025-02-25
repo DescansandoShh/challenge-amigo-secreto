@@ -2,7 +2,8 @@
 <p>Esta aplicación web es una realización del desafío del curso "Principiante en Programación G8 - ONE" de Alura LATAM</p>
 
 ## ¿Qué hace?
-Esta aplicación sortea un amigo de una lista de nombres ingresados.
+Esta aplicación sortea un amigo de una lista de nombres ingresados.<br>
+link--> https://descansandoshh.github.io/challenge-amigo-secreto/
 
 ## ¿Cómo funciona?
 1. Se ingresa un nombre en la caja de texto.<br>
